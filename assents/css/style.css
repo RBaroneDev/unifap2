@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 40px;
+    background-color: black;
+}
+.card {
+    width: 550px;
+    padding: 20px 1%;
+    background-color: aliceblue;
+    border: 8px solid #00a136;
+    border-radius: 39px;
+    box-shadow: 0 8px 15px rgb(32, 180, 2);
+    text-align: center;
+}
+img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.card > h2 {
+    color: #00a136;
+    font-size: 50px;
+}
+
+.card > p {
+    font-size: 43px;
+}
+
+
+.about-me {
+    text-align: left;
+}
+
+/* ESTILO BTN CONTATO */
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 580;
+    background-color: #00a136;
+    color:rgb(207, 207, 207);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0+px 20px rgb(32, 180, 2);
+    color: aliceblue;
+}
